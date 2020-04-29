@@ -16,15 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".homework02_1" />
-
-        <activity android:name=".MediaService" />
-
-        <activity android:name=".MyService">
-
-
-        </activity>
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".MediaService"
+            android:enabled="true"
+            android:exported="true" />
+        <activity android:name=".homework02_1"></activity>
     </application>
 
 </manifest>
