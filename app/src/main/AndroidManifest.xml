@@ -16,6 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <service
             android:name=".MyService"
             android:enabled="true"
@@ -24,7 +25,11 @@
             android:name=".MediaService"
             android:enabled="true"
             android:exported="true" />
-        <activity android:name=".homework02_1"></activity>
+
+        <activity android:name=".homework02_1" />
+        <activity android:name=".homework02_2" />
+        <activity android:name=".homework02_3" />
+        <activity android:name=".MyOpenHelper"></activity>
     </application>
 
 </manifest>
